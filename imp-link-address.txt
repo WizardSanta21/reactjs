@@ -1,0 +1,9 @@
+important links to refer:
+
+https://bobbyhadz.com/blog/react-you-cannot-render-a-router-inside-another-router
+
+https://kinsta.com/knowledgebase/attempted-import-error-switch-is-not-exported-from-react-router-dom/
+
+https://www.codespeedy.com/link-in-react-js/
+
+https://reactrouter.com/en/main/start/tutorial

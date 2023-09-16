@@ -1,0 +1,363 @@
+###################################################Signup html##########################################
+
+
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Signup Form</title> 
+
+  <link rel="stylesheet" href="D:\html\signup2\css\signup.css"> 
+
+ </head> 
+
+ <body> <!-- partial:index.partial.html --> 
+
+  <section> 
+
+   <div class="signin"> 
+
+    <div class="content"> 
+
+     <h2>Sign Up</h2> 
+
+     <div class="form"> 
+
+      <div class="inputBox1"> 
+
+       <input type="text" required> <i>Employee Name</i> 
+
+      </div> 
+       <div class="inputBox1"> 
+
+       <input type="text" required> <i>Employee Code</i> 
+
+      </div> 
+
+      <div class="inputBox1"> 
+
+       <input type="password" required> <i>Password</i> 
+
+      </div> 
+       <div class="inputBox1"> 
+
+       <input type="password" required> <i>Confirm Password</i> 
+
+      </div> 
+
+      <div class="links"> <a href="#">Forgot Password</a> <a href="login.html">Log in</a> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="submit" value="SIGN IN"> 
+
+      </div> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+
+ </body>
+
+</html>
+
+
+
+
+
+#######################################################################login html##########################################################
+
+
+
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <title>Login Form</title> 
+
+  <link rel="stylesheet" href="D:\html\signup2\css\login.css"> 
+
+ </head> 
+
+ <body> <!-- partial:index.partial.html --> 
+
+  <section> 
+
+   <div class="login"> 
+
+    <div class="content"> 
+
+     <h2>Log In</h2> 
+
+     <div class="form"> 
+
+       <div class="inputBox"> 
+
+       <input type="text" required> <i>Employee Code</i> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="password" required> <i>Password</i> 
+
+      <div class="links"> <a href="#">Forgot Password</a> <a href="signup.html">Sign up</a> 
+
+      </div> 
+
+      <div class="inputBox"> 
+
+       <input type="submit" value="LOG IN"> 
+
+      </div> 
+
+     </div> 
+
+    </div> 
+
+   </div> 
+
+  </section> <!-- partial --> 
+
+ </body>
+
+</html>
+
+
+
+
+####################################################################################op1############################################################
+
+
+
+
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="D:\html\signup2\css\quiz.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="D:\html\signup2\js\question.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="D:\html\signup2\js\quiz.js"></script>
+
+</body>
+</html>
+</html>
+
+
+
+##########################################################################op2#######################################################################
+
+
+
+
+<html>
+    
+    <head>
+        <title>
+            Question and anser
+        </title>
+        <link rel="stylesheet" href="D:\html\signup2\css\op2.css">
+        <script src="D:\html\signup2\js\op2.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Quiz test</h1>
+            <div id="result">
+                <h2>Your scrore : Not yet attended</h2>
+            </div>
+        </div>
+        <div class="body">
+            <form name="quiz" onsubmit="return onSubmit()">
+             <div class="question">
+                <h1>Which one of the following river flows between Vindhyan and Satpura ranges?</h1>
+                <input type ="radio" name="q1" value="a">a. Narmada<br>
+                <input type ="radio" name="q1" value="b">b. Mahanadi<br>
+                <input type ="radio" name="q1" value="c">c. Son<br>
+                <input type ="radio" name="q1" value="d">d. Netravati<br>
+
+             </div>
+             <div class="question">
+                <h1>The Central Rice Research Station is situated in?</h1>
+                <input type ="radio" name="q2" value="a">a. Chennai<br>
+                <input type ="radio" name="q2" value="b">b. Cuttack<br>
+                <input type ="radio" name="q2" value="c">c. Bangalore<br>
+                <input type ="radio" name="q2" value="d">d. Quilon<br>
+
+             </div>
+             <div class="question">
+                <h1>Who among the following wrote Sanskrit grammar?</h1>
+                <input type ="radio" name="q3" value="a">a. Kalidasa<br>
+                <input type ="radio" name="q3" value="b">b. Charak<br>
+                <input type ="radio" name="q3" value="c">c. Panini<br>
+                <input type ="radio" name="q3" value="d">d. Aryabhatt<br>
+
+             </div>
+             <div class="question">
+                <h1>Which among the following headstreams meets the Ganges in last?</h1>
+                <input type ="radio" name="q4" value="a">a. Alaknanda<br>
+                <input type ="radio" name="q4" value="b">b. Pindar<br>
+                <input type ="radio" name="q4" value="c">c. Mandakini<br>
+                <input type ="radio" name="q4" value="d">d. Bhagirathi<br>
+
+             </div>
+             <div class="question">
+                <h1>The metal whose salts are sensitive to light is?</h1>
+                <input type ="radio" name="q5" value="a">a. Zinc<br>
+                <input type ="radio" name="q5" value="b">b. Silver<br>
+                <input type ="radio" name="q5" value="c">c. Copper<br>
+                <input type ="radio" name="q5" value="d">d. Aluminum<br>
+
+             </div>
+             <button type="submit">Submit Test</button>
+            </form>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+###################################################################################homepage#########################################################
+
+
+
+
+
+<html>
+    <head>
+        <title>Home Page </title>
+        <link rel="stylesheet" href="D:\html\signup2\css\home.css"> 
+        <style>
+
+        </style>
+        <script>
+            var iframe = null;
+
+            function loadPage(url) {
+              // If the iframe doesn't exist, create it
+            if (!iframe) {
+                iframe = document.createElement("iframe");
+                iframe.style.width = "100%";
+                iframe.style.height = "100%";
+                iframe.style.border = "none"; // Optional: Remove iframe border
+                document.body.appendChild(iframe);
+    }
+
+    // Set the src attribute of the iframe to load the specified URL
+    iframe.src = url;
+}
+        </script>
+        </head>
+        <body>
+            <section>
+            </head>
+            <body>
+            
+                    
+                    <div class="navbar">
+                        <a href="#name">Employee Name</a>
+                        <a href="#code">Employee Code</a>
+                    </div>
+
+                    <div class="navbar1">
+                        <a href="#" onclick="loadPage('op1.html')">APR</a>
+                        <a href="#about" onclick="loadPage('op2.html')">ACD</a>
+                        <a href="#about">Process</a>
+                    </div>
+            
+            
+            
+
+            </section>
+
+        </body>
+</html>
